@@ -9,6 +9,8 @@ To generate the final results, execute the two steps below:
 
 All results will be generated in the folder Results\Combination of Algorithms (Average of Subjects).
 
+Note: MinGW-w64 C++ Compiler must be installed in Matlab.
+
 #### Associated Paper
 1. Mutasim, A.K., Bashar, M.R., Tipu, R.S., Islam, M.K. and Amin, M.A., 2018, August. Effect of Artefact Removal Techniques on EEG Signals for Video Category Classification. In 2018 International Conference on Pattern Recognition (ICPR 2018).
 
