@@ -27,6 +27,7 @@ def readFileAndComputeAverageOfAlgorithmCombinations(fileName):
     for key, value in algoCombosDict.items():
         algoCombosDict[key][0] /= algoCombosDict[key][2]
         algoCombosDict[key][1] /= algoCombosDict[key][2]
+##        print(algoCombosDict[key][0])
 
     return algoCombosDict
 
@@ -45,26 +46,26 @@ def writeInFile(fileName, algoCombosDict):
             writer.writerow(line)
 
 
-##dataTypes = ["Raw", "SWT", "SWTSD"]
-##devices = ["Muse", "Emotiv"]
-##
-##for data in dataTypes:
-##    for device in devices:
-##        if device == "Muse":
-##            channelNames = ["TP9", "AF7", "AF8", "TP10"]
-##        else:
-##            channelNames = ["AF3", "F7", "F3", "FC5", "T7", "P7", "O1", "O2", "P8", "T8", "FC6", "F4", "F8", "AF4"]
-##
-##        for channel in channelNames:
-##            fileName = device + " " + channel + " " + data
-##
-##            algoCombosDict = readFileAndComputeAverageOfAlgorithmCombinations(fileName + ".csv")
-##
-##            writeInFile("Combination of Algorithms (Average of Subjects)\\" + fileName + " " + "Average of Subjects.csv", algoCombosDict)
+dataTypes = ["Raw", "SWT", "SWTSD"]
+devices = ["Muse", "Emotiv"]
+
+for data in dataTypes:
+    for device in devices:
+        if device == "Muse":
+            channelNames = ["TP9", "AF7", "AF8", "TP10"]
+        else:
+            channelNames = ["AF3", "F7", "F3", "FC5", "T7", "P7", "O1", "O2", "P8", "T8", "FC6", "F4", "F8", "AF4"]
+
+        for channel in channelNames:
+            fileName = device + " " + channel + " " + data
+
+            algoCombosDict = readFileAndComputeAverageOfAlgorithmCombinations(fileName + ".csv")
+
+            writeInFile("Combination of Algorithms (Average of Subjects)\\" + fileName + " " + "Average of Subjects.csv", algoCombosDict)
 
 
-##device = "Muse"
-##channel = "TP9"
+##device = "Emotiv"
+##channel = "T8"
 ##data = "Raw"
 ##
 ##fileName = device + " " + channel + " " + data

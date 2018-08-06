@@ -1,0 +1,2 @@
+filt_IIRChebIshevI,PWelch,PCA,LIBSVMFast,60.0,0.0024767
+filt_IIRChebIshevI,PWelch,PCA,NBayes,36.666667,0.0046169
