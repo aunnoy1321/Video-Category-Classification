@@ -64,9 +64,9 @@ for data in dataTypes:
             writeInFile("Combination of Algorithms (Average of Subjects)\\" + fileName + " " + "Average of Subjects.csv", algoCombosDict)
 
 
-##device = "Emotiv"
-##channel = "T8"
-##data = "Raw"
+##device = "Muse"
+##channel = "TP10"
+##data = "SWTSD"
 ##
 ##fileName = device + " " + channel + " " + data
 ##
