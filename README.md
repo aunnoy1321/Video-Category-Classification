@@ -9,5 +9,8 @@ To generate the final results, execute the two steps below:
 
 All results will be generated in the folder Results\Combination of Algorithms (Average of Subjects).
 
+#### Associated Paper
+1. Mutasim, A.K., Bashar, M.R., Tipu, R.S., Islam, M.K. and Amin, M.A., 2018, August. Effect of Artefact Removal Techniques on EEG Signals for Video Category Classification. In 2018 International Conference on Pattern Recognition (ICPR 2018).
+
 #### Reference
 1. Oikonomou, V.P., Liaros, G., Georgiadis, K., Chatzilari, E., Adam, K., Nikolopoulos, S. and Kompatsiaris, I. (2016) EEG processing toolbox. Available at: https://github.com/MAMEM/eeg-processing-toolbox (Accessed: 14 November 2016).
