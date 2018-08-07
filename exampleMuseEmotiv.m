@@ -1,4 +1,4 @@
-function [meanAccuracies,time] = exampleMuseEmotiv(sess, dataset, channel, extrNumber, featSelectNumber, classifNumber, filter, device)
+function [meanAccuracies, time] = exampleMuseEmotiv(sess, dataset, channel, extrNumber, featSelectNumber, classifNumber, filter, device)
     %UNTITLED Summary of this function goes here
     %   Detailed explanation goes here
 
