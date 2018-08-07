@@ -9,6 +9,8 @@ To generate the final results, execute the two steps below:
 
 All results will be generated in the folder Results\Combination of Algorithms (Average of Subjects). The files generated in this folder are named following the format "DeviceName Channel DataType" and the data in the second last column of each of these files correspond to a column in Table V and/or Table VI and/or Table VII of our paper referenced below.
 
+Results that can be reproduced: Tables V, VI and VII of our paper referenced below.
+
 Note: MinGW-w64 C++ Compiler must be installed in Matlab and all the experiments were run in a Windows platform.
 
 #### Associated Paper
