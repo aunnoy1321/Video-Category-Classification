@@ -7,9 +7,9 @@ To generate the final results, execute the two steps below:
 1. Run the file named exampleRunAllDatasetClassifierFeatextr.m in the base folder in Matlab. (Will take about 10 hours to 24 hours to finish execution depending on computer configuration)
 2. Run the file named BestCombinationOfAlgorithms.py in the Results folder in Python 3.
 
-All results will be generated in the folder Results\Combination of Algorithms (Average of Subjects).
+All results will be generated in the folder Results\Combination of Algorithms (Average of Subjects). The files generated in this folder are named following the format "DeviceName Channel DataType" and the last column of each of these files correspond to a column in Table 3 and/or Table 4 and/or Table 5 of our paper referenced below.
 
-Note: MinGW-w64 C++ Compiler must be installed in Matlab.
+Note: MinGW-w64 C++ Compiler must be installed in Matlab and all the experiments were run in a Windows platform.
 
 #### Associated Paper
 1. Mutasim, A.K., Bashar, M.R., Tipu, R.S., Islam, M.K. and Amin, M.A., 2018, August. Effect of Artefact Removal Techniques on EEG Signals for Video Category Classification. In 2018 International Conference on Pattern Recognition (ICPR 2018).
